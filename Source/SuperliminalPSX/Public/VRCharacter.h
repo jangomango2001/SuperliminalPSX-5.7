@@ -25,6 +25,7 @@ protected:
 private:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"), Category = "Playersettings")
 	UCameraComponent* activeCam = NULL;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
