@@ -1,3 +1,5 @@
 Add spring arm to widget
 Mainmenu
-Jump Mechanic
+Jump Mechanic--
+Disable Some settings
+On Begin play mainmenu set FPS Lock
