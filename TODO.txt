@@ -1,5 +1,11 @@
-Add spring arm to widget
-Mainmenu
-Jump Mechanic--
+
 Disable Some settings
 On Begin play mainmenu set FPS Lock
+Fix Look here Orientation
+Fix portals not working correctly
+
+-----------------DONE--------------
+Mainmenu--
+Jump Mechanic--
+
+(X=-1890.000000,Y=4200.000000,Z=500.000000)
