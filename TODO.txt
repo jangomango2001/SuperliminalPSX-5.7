@@ -1,11 +1,25 @@
 
-Disable Some settings
-On Begin play mainmenu set FPS Lock
-Fix Look here Orientation
-Fix portals not working correctly
+
+--Hide controls
+--Jump Control
+Rotate Change--
+Fix left hand not rotating
+Change Duplicated hint message
+
+
 
 -----------------DONE--------------
 Mainmenu--
 Jump Mechanic--
+Disable Some settings
+Fix Look here Orientation
+Fix portals not working correctly
+Fix render distance 
+Add Turning in Pause Menu
+
 
 (X=-1890.000000,Y=4200.000000,Z=500.000000)
+
+(X=3800.000000,Y=2590.000000,Z=527.000000)
+
+(X=260.000000,Y=195.000000,Z=92.000000)
