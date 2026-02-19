@@ -9,6 +9,7 @@ public class SuperliminalPSXEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
+		//BuildEnvironment = TargetBuildEnvironment.Unique;
 
 		ExtraModuleNames.AddRange( new string[] { "SuperliminalPSX" } );
 	}

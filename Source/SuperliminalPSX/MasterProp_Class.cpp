@@ -2,8 +2,6 @@
 
 
 #include "MasterProp_Class.h"
-#include "IXRTrackingSystem.h"
-#include "IHeadMountedDisplay.h"
 #include "Engine/TextureRenderTarget2D.h"
 
 // Sets default values
@@ -35,23 +33,5 @@ void AMasterProp_Class::ResizeTextureTarget(UTextureRenderTarget2D *Texture, int
 
 void AMasterProp_Class::GetScreenSize(int& Width, int& Height)
 {
-    if (GEngine->XRSystem.IsValid())
-    {
-        IHeadMountedDisplay* HMD = GEngine->XRSystem->GetHMDDevice();
-        if (HMD)
-        {
-            FIntPoint IdealRenderTargetSize;
-            // This gets the resolution required to fill the HMD views
-            IdealRenderTargetSize = HMD->GetIdealRenderTargetSize();
-
-            Width = IdealRenderTargetSize.X;
-            Height = IdealRenderTargetSize.Y;
-            GEngine->AddOnScreenDebugMessage(0, 0.02, FColor::Yellow, FString::Printf(TEXT("%i = width / %i = height"), Width, Height));
-        }
-    }
-    else {
-        Width = 1920;
-        Height = 1080;
-    }
 }
 

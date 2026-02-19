@@ -8,7 +8,8 @@ public class SuperliminalPSXTarget : TargetRules
 	public SuperliminalPSXTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
+		//BuildEnvironment = TargetBuildEnvironment.Unique;
 
 		ExtraModuleNames.AddRange( new string[] { "SuperliminalPSX" } );
 	}
