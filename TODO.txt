@@ -1,6 +1,4 @@
-Merge Meshes
-change cull distance in all levels
-Turn off tick on props
+Make Level Select Menu again
 
 -----------------DONE--------------
 Mainmenu--
@@ -17,5 +15,9 @@ Rotate Change
 Fix left hand not rotating
 Change Duplicated hint message
 Fix mainmenu sky and walls
+Merge Meshes
+
+Turn off tick on props
+
 
 (X=-1890.000000,Y=4200.000000,Z=500.000000)
