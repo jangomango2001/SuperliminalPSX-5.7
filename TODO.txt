@@ -1,5 +1,4 @@
-Make Level Select Menu again
-
+Fix Render distance on new meshes
 -----------------DONE--------------
 Mainmenu--
 remove anti aliasing & render res option in settings
@@ -16,8 +15,15 @@ Fix left hand not rotating
 Change Duplicated hint message
 Fix mainmenu sky and walls
 Merge Meshes
-
+Fix projections in level 3
 Turn off tick on props
+Fix object pass doorway
+fix volume not coming back after turning down in class mix
 
+Add reset button to some puzzles
+Player reset not working
 
 (X=-1890.000000,Y=4200.000000,Z=500.000000)
+
+
+(X=3800.000000,Y=2590.000000,Z=527.000000)
