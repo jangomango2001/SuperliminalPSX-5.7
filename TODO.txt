@@ -1,4 +1,7 @@
-Fix Render distance on new meshes
+Fix crash in finish
+Reset Puzzle in level 3
+Fix render distanceof text
+
 -----------------DONE--------------
 Mainmenu--
 remove anti aliasing & render res option in settings
