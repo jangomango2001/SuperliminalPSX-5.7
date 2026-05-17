@@ -12,6 +12,7 @@ Main tutorial by PastaNoob, you can find his tutorial over here https://www.yout
 
 ## Engine & VR
 **Minimum engine version:** Unreal Engine 5.27
+
 All of UE5's features like nanite, lumen and TSR are disabled.
 
 **For Windows:** Use SteamVR or Meta Horizon Link
