@@ -39,7 +39,7 @@ The central player character blueprint handling movement controls and the core *
 
 Forced perspective logic is written in **C++** for best performance. However a **Blueprint Friendly:** For people who prefer not to touch C++, a fully functional **Blueprint equivalent function** is included within the event graph for easy debugging and modification.
 
-<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/9b4aabda-0534-482a-90b4-1dadb617eed0" />
+<img width="800" height="450" alt="ezgif-46ffe63a1411343d" src="https://github.com/user-attachments/assets/5f867a6a-0a00-44ac-9fcc-a688535e6e21" />
 
 
 
@@ -78,7 +78,8 @@ Manages seamless non-Euclidean portal rendering and player teleportation. Becaus
     3. Place two instances of "BP_PortalCaptureActor", one for each portal. In the details panel, assign the **capture portal** (the portal you want to capture) and the **viewing portal** (the portal where you want to display the captured image.
 *   ⚠️ **Critical Warning:** Do *not* enable `Is Duplicating Prop` on portal blueprints. Portal replication is not nsupported and may break portal logic.
 
-<img width="800" height="436" alt="image" src="https://github.com/user-attachments/assets/8dd246b7-5c2f-4ee6-a309-a1d6652b5167" />
+<img width="800" height="436" alt="ezgif-4f005d0b633fc46e" src="https://github.com/user-attachments/assets/c1fb4de6-bb81-46ab-ac8d-dcc303454d38" />
+
 
 ---
 ## 📃 Credits
