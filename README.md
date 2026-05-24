@@ -11,7 +11,7 @@ Retro styling and shaders were made by **Daveface**, you can get the retro shade
 Main tutorial by PastaNoob, you can find his tutorial over here https://www.youtube.com/watch?v=Em8hSFAamYo
 
 ## Engine & VR
-**Minimum engine version:** Unreal Engine 5.27
+**Minimum engine version:** Unreal Engine 5.7
 
 All of UE5's features like nanite, lumen and TSR are disabled.
 
